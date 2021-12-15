@@ -1,0 +1,29 @@
+# Sign UP
+POST http://localhost:7500/signUp
+content-type: application/json
+
+{
+    "username": "gooodmini",
+    "password": "helloworld"
+}
+
+###
+
+
+# Sign IN
+POST http://localhost:7500/signIn
+content-type: application/json 
+
+{
+    "username": "gooodmini",
+    "password": "helloworld123"
+}
+###
+
+
+# Sign Out
+POST http://localhost:7500/signOut
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJnZXpaVzRzbVBOZF8yQU5pVlI5b1kiLCJpYXQiOjE2MzM0NTIyMDl9.sTKD88F9AeJJv4BPKi6bFw6KLtTmiIbabYGY4pblvIo
+
+###

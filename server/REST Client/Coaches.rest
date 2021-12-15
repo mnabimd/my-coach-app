@@ -1,0 +1,21 @@
+# Register As Coach
+PUT http://localhost:7500/registerAsCoach/213
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJ0cXdsdGVIOURHekZiUFFFajNBYkUiLCJpYXQiOjE2MzM4NzMyMjl9.5Zuo9g10_uB_w4u64qd1ZERoG8C4LavX_tnrRqvBvIk
+
+###
+
+# All Coaches
+
+GET http://localhost:7500/api/coaches/
+Content-Length: application/json
+
+###
+
+# Contact Coach
+
+POST http://localhost:7500/coaches/MoG8YaiK3yBtQhZ2btvAe/contact
+Content-Length: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiJNb0c4WWFpSzN5QnRRaFoyYnR2QWUiLCJpYXQiOjE2MzQzODkyNTF9.iPJsRk3cdbzoBwMl6xU1LniHWDnn68cn5Ulikgbd5cY
+
+###
