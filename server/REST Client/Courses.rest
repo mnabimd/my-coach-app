@@ -1,4 +1,0 @@
-# Sign UP
-GET http://localhost:7500/courses
-content-type: application/json
-###

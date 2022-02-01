@@ -1,13 +1,13 @@
 {
-  "name": "api-auth",
+  "name": "my-coach-app",
   "version": "1.0.0",
-  "description": "Api authentication with JWT with complete features.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node server/src/index.js",
     "dev": "nodemon server/src/index.js"
   },
-  "author": "Mohammad Nabi",
+  "author": "Eftikhar Ahmad",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",

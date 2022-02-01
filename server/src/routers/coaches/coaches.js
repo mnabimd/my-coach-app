@@ -46,7 +46,10 @@ router.get('/api/coaches', async (req, res) => {
     const getBio = await Users.findAll({
         where: {
             _id: coachesIds
-        }
+        },
+        order: [
+            ['createdAt', 'DESC']
+        ]
     });
 
 

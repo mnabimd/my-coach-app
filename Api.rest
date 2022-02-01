@@ -1,0 +1,2 @@
+// Api coches list
+GET http://localhost:7500/api/coaches
